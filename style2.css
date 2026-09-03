@@ -30,10 +30,10 @@ body {
   }
 
   .imgsecao1 {
-    width: 80%;
+    width: 85%;
     height: 80vh;
     margin-top: 25px;
-    margin-bottom: 200px;
+    margin-bottom: 30px;
   }
 }
 
@@ -42,11 +42,12 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   h2 {
     font-size: 50px;
-    margin-left: 230px;
-    margin-bottom: 100px;
+
+    margin-bottom: 20px;
   }
 }
 
@@ -79,16 +80,18 @@ header {
 .divCards {
   color: #1331a1;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 200px;
+  gap: 50px 90px;
   .card {
+    
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #f4f4f4;
-    width: 30vh;
-    height: 50vh;
-    border-radius: 25px;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 18px;
     box-shadow: 5px 8px 10px rgb(190, 190, 190);
 
     button {
@@ -102,27 +105,29 @@ header {
       font-weight: 200px;
       font-style: normal;
       border: none;
-      margin-top: 25px;
+      margin-top: 10px;
     }
     .img2{
       margin-top: 0px;
-      width: 80%;  
+      width: 97%;
+      height: 200px;  
     }
 
     .logodindin{
       position: relative;
-      bottom: 35px;
-      right: 60px;
-      width: 10%; 
+      bottom: 43px;
+      right: 65px;
+      width: 6%; 
+      margin-bottom: -20px;
     }
     h3 {
-      font-size: 30px;
-      margin-top: 45px;
+      font-size: 25px;
+      margin-top: 0px;
     }
 
     h4 {
-      margin-top: 10px;
-      font-size: 22px;
+      margin-top: 0px;
+      font-size: 15px;
       font-weight: 6;
     }
   }
@@ -132,10 +137,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 120px;
+  font-size: 50px;
   color: white;
   background-color: #a2ca02;
-  margin-top: 100px;
+  margin-top: 50px;
 
-  width: 100%;
+  width: 1896px;
 }
