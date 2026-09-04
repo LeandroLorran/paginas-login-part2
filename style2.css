@@ -117,13 +117,6 @@ header {
       height: 200px;  
     }
 
-    .logodindin{
-      position: relative;
-      bottom: 43px;
-      right: 65px;
-      width: 6%; 
-      margin-bottom: -20px;
-    }
     h3 {
       font-size: 25px;
       margin-top: 0px;
@@ -133,6 +126,24 @@ header {
       margin-top: 0px;
       font-size: 15px;
       font-weight: 6;
+    }
+
+    .nomesdataEdindin{
+      display: flex;
+
+      .logodindin{
+        position: relative;
+        width: 15%;
+        margin: 0px 10px;
+        top:-7px;
+     }
+
+     .caleder{
+        position: relative;
+        width: 13%;
+        margin: 0px 10px;
+        top:-9px;
+     }
     }
   }
 }

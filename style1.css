@@ -125,6 +125,14 @@ header {
       font-size: 22px;
       font-weight: 6;
     }
+
+    .logocalendar{
+      margin-top: -25px;
+      position: relative;
+      bottom: -38px;
+      right: 95px;
+      width: 10%; 
+    }
   }
 }
 
